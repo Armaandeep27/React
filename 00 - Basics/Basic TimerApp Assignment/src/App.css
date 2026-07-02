@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#timer-container {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+#timer-container label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#timer-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#timer-container input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+#clock {
+  margin: 25px 0;
+  padding: 18px;
+  border: 2px solid #4f46e5;
+  border-radius: 12px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background: #eef2ff;
+}
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#button-container button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#start-btn {
+  background: #22c55e;
+}
+
+#start-btn:hover {
+  background: #16a34a;
+}
+
+#pause-btn {
+  background: #f59e0b;
+}
+
+#pause-btn:hover {
+  background: #d97706;
+}
+
+#reset-btn {
+  background: #ef4444;
+}
+
+#reset-btn:hover {
+  background: #dc2626;
+}
